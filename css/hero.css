@@ -1,0 +1,118 @@
+.class{
+    opacity:0.7; -moz-opacity:0.7;
+    filter:alpha(opacity=70);
+}
+.hero-slide{
+    background: url(../images/img1.jpg) top center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.hero-slide:after{
+    content: ".";
+    background: rgba(46, 32, 20, 0.3);
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#jssor_1{
+    position: relative;
+    margin: 0 auto;
+    top: 0px;
+    left: 0px;
+    width: 1300px;
+    height: 500px;
+    overflow: hidden;
+    visibility: hidden;
+}
+.entryForm{
+    display: inline-block;
+    vertical-align: middle;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+form{
+    width: 220px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    padding: 0 30px;
+}
+.name{
+	display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+.name, .gender, .enter{
+    font-size: 14px;
+    color: #537fa8;
+}
+.inp{
+    border: 1px solid #d0cec9;
+    background-color: #fff;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 20px;
+}
+.gender{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.female{
+    margin-right: 40px;
+}
+.sumit{
+    background: #0db233;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin-right: 25px;
+}
+.hero-h2{
+    text-align: center;
+    padding: 30px 0 20px 0;
+    margin: 0;
+}
+table{
+    margin: 0 auto;
+}
+.title{
+    border-bottom: 1px solid gray;
+    width: 35%;
+}
+.enter{
+    vertical-align: middle;
+    text-align: center;
+}
+.socials {
+	margin: 0 auto;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.vk, .fb, .gPlus{
+    display: inline-block;
+    vertical-align: middle;
+    height: 28px;
+    width: 28px;
+    border-radius: 2px;
+}
+.vk{
+    background: #507299;
+    font-family: "fontello";
+}
+.fb{
+    background: #43609C;
+    font-family: "fontello";
+}
+.gPlus{
+    background: #DB4437;
+    font-family: "fontello";
+}
+.icon-vkontakte, .icon-facebook, .icon-gplus{
+	color: #fff;
+    margin-top: 10px;
+}

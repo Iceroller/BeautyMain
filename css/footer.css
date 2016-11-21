@@ -1,0 +1,83 @@
+.footer-bg{
+    background: #262f37;
+}
+.footer-wrap{
+    text-align: justify;
+    line-height: 0;
+    font-size: 1px;
+    text-justify: newspaper;
+}
+#foot-logo-wrap, .footer-info{
+    width: 20%;
+    height: 98px;
+    display: inline-block;
+    text-align: left;
+    line-height: normal;
+    font-size: 14px;
+    vertical-align: top;
+}
+.footer-empty{
+    width: 60%;
+    height: 98px;
+    display: inline-block;
+    text-align: left;
+    line-height: normal;
+    font-size: 14px;
+    vertical-align: top;
+}
+.footer-fake{
+	width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+	height:0;
+	line-height:0;
+	font-size:0;
+	margin:0;
+}
+#logo-wrap, li{
+	display: inline-block;
+    vertical-align: middle;
+    line-height: 60px;
+}
+#foot-logo-wrap{
+    text-align: center;
+}
+#footer-logo{
+    width: 132px;
+    height: 79px;
+    background: url(../images/icons/Logo.png) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: bottom;
+    text-indent: -99999px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    margin-top: 10px;
+}
+.foot-logo-a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.footer-info{
+	height: 95px;
+    display: inline-block;
+    vertical-align: middle;
+    height: inherit;
+    text-align: center;
+}
+.foot-info-span{
+    display: inline-block;
+}
+.foot-info-a{
+    display: block;
+    margin: 0 auto; 
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.foot-info-p{
+    color: #fff;
+    display: inline-block;
+}

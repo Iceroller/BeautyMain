@@ -1,0 +1,14 @@
+.block1{
+    height: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+.block1-h1{
+    font-size: 50px;
+    color: #000;
+}
+.block1-p{
+    font-size: 20px;
+    color: #5783ac;
+    padding: 0 100px;
+}
