@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
+
     <div class="header-bg">
         <div class="container">
             <div class="header-wrap">
@@ -24,7 +18,7 @@
                 </div>
                 <div class="header-login">
                     <div class="header-logBG">
-                        <a class="head-log-a" href="#"><img src="../images/icons/Login.png" alt="login"><p class="head-log-p">login</p></a>
+                        <a class="head-log-a" href="#"><img src="images/icons/Login.png" alt="login"><p class="head-log-p">login</p></a>
                         
                     </div>
                 </div>
@@ -34,5 +28,3 @@
             </div><!--header-wrap-->
         </div>   <!--container-->
     </div><!--header-bg-->
-</body>
-</html>

@@ -2,7 +2,7 @@
     border-bottom: 3px solid #2a699d;
     background: #262f37;
 }
-.header-wrap{
+.header-bg .header-wrap{
     text-align: justify;
     line-height: 0;
     font-size: 1px;
@@ -46,7 +46,7 @@
 #header-logo{
     width: 132px;
     height: 79px;
-    background: url(../images/icons/Logo.png) no-repeat;
+    background: url(images/icons/Logo.png) no-repeat;
     background-size: contain;
     display: inline-block;
     vertical-align: bottom;

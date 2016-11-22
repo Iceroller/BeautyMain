@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
-    <div class="container">
+
         <div class="map">
             <h1 class="block3-h1">Find friends around the world</h1>
         </div>
-    </div>
-</body>
-</html>
+

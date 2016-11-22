@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
+
     <div class="block4-wrap">
         <h1 class="block4-h1">We hope you find your love!</h1>
         <div class="entryForm">
@@ -52,5 +46,3 @@
                         </div>
                     </div>
     </div>
-</body>
-</html>

@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
+
     <div class="footer-bg">
         <div class="container">
             <div class="footer-wrap">
@@ -26,5 +20,5 @@
             </div><!--head-->
         </div>   <!--container-->
     </div><!--bg-->
-</body>
-</html>
+
+    <?php include("js-connections.php"); ?>

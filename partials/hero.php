@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-</head>
+
 
 
     
@@ -18,7 +12,7 @@
             <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
                 <div class="hero-slide" data-p="225.00" style="display: none;">
                     <div data-u="caption" data-t="0" style="position: absolute; bottom: 120px; left: 650px; width: 170px; height: 220px;">
-                        <img class="class" data-u="caption" data-t="3" style="position: absolute; top: 850px; left: 1750px; width: 123px; height: 75px;" src="../images/icons/Logo.png" />
+                        <img class="class" data-u="caption" data-t="3" style="position: absolute; top: 850px; left: 1750px; width: 123px; height: 75px;" src="images/icons/Logo.png" />
                     </div>
                     <div class="entryForm">
                         <h2 class="hero-h2">Welcome!</h2>
@@ -66,51 +60,51 @@
                     </div>
                 </div>
                 <div class="hero-slide" data-p="225.00" style="display: none;">
-                    <img data-u="image" src="../images/img2.jpg" />
+                    <img data-u="image" src="images/img2.jpg" />
                     <div class="entryForm">
             
                     </div>
                 </div>
                 <div class="hero-slide" data-p="225.00" style="display: none;">
-                    <img data-u="image" src="../images/img3.jpg" />
+                    <img data-u="image" src="images/img3.jpg" />
                     <div class="entryForm">
             
                     </div>
                 </div>
                 <div class="hero-slide" data-p="225.00" style="display: none;">
-                    <img data-u="image" src="../images/img4.jpg" />
+                    <img data-u="image" src="images/img4.jpg" />
                     <div class="entryForm">
             
                     </div>
                 </div>
                 <div class="hero-slide" data-p="225.00" style="display: none;">
-                    <img data-u="image" src="../images/img5.jpg" />
+                    <img data-u="image" src="images/img5.jpg" />
                     <div class="entryForm">
             
                     </div>
                 </div>
                 <div class="hero-slide" data-p="225.00" style="display: none;">
-                    <img data-u="image" src="../images/img6.jpg" />
+                    <img data-u="image" src="images/img6.jpg" />
                     <div class="entryForm">
             
                     </div>
                 </div>
             
                 <div class="hero-slide" data-p="225.00" style="display: none;">
-                    <img data-u="image" src="../images/img7.jpg" />
+                    <img data-u="image" src="images/img7.jpg" />
                     <div class="entryForm">
             
                     </div>
                 </div>
                 <div class="hero-slide" data-p="225.00" style="display: none;">
-                    <img data-u="image" src="../images/img8.jpg" />
+                    <img data-u="image" src="images/img8.jpg" />
                     <div class="entryForm">
             
                     </div>
                     
                 </div>
                 <div class="hero-slide" data-p="225.00" style="display: none;">
-                    <img data-u="image" src="../images/img9.jpg" />
+                    <img data-u="image" src="images/img9.jpg" />
                     <div class="entryForm">
             
                     </div>
@@ -120,8 +114,3 @@
 
         </div>
         
-    <script src="../js/jquery-1.11.3.min.js" type="text/javascript"></script>
-    <script src="../js/jssor.slider-21.1.6.mini.js" type="text/javascript"></script>
-    <script src="../js/hero.js" type="text/javascript"></script>
-</body>
-</html>

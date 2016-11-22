@@ -22,11 +22,11 @@
     bottom:0;
     left:0;
 }
-.backward {
+.block2-wrap .backward {
     position: relative;
 }
 /* Slider */
-.slick-slider
+.block2-wrap .slick-slider
 {
     position: relative;
 
@@ -44,11 +44,11 @@
         touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
 }
-.slick-slide {
+.block2-wrap .slick-slide {
 	margin: 0;
     padding: 0;
 }
-.slick-list
+.block2-wrap .slick-list
 {
     position: relative;
 
@@ -58,11 +58,11 @@
     margin: 0;
     padding: 0;
 }
-.slick-list:focus
+.block2-wrap .slick-list:focus
 {
     outline: none;
 }
-.slick-list.dragging
+.block2-wrap .slick-list.dragging
 {
     cursor: pointer;
     cursor: hand;
