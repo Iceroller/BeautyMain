@@ -1,14 +1,14 @@
-.header-bg{
+.header{
     border-bottom: 3px solid #2a699d;
     background: #262f37;
 }
-.header-bg .header-wrap{
+.header .wrap{
     text-align: justify;
     line-height: 0;
     font-size: 1px;
     text-justify: newspaper;
 }
-#head-logo-wrap, .header-log{
+.header #logo-wrap, .header .login{
     width: 20%;
     height: 98px;
     display: inline-block;
@@ -17,7 +17,7 @@
     font-size: 14px;
     vertical-align: top;
 }
-.header-menu{
+.nav{
     width: 50%;
     height: 98px;
     display: inline-block;
@@ -26,7 +26,7 @@
     font-size: 14px;
     vertical-align: top;
 }
-.header-fake{
+.fake{
 	width: 30%;
     display: inline-block;
     vertical-align: middle;
@@ -35,18 +35,18 @@
 	font-size:0;
 	margin:0;
 }
-#head-logo-wrap, ,head-menu-li{
+.header #logo-wrap, .header li{
 	display: inline-block;
     vertical-align: middle;
     line-height: 60px;
 }
-#head-logo-wrap{
+.header #logo-wrap{
     text-align: center;
 }
-#header-logo{
+.header #logo{
     width: 132px;
     height: 79px;
-    background: url(images/icons/Logo.png) no-repeat;
+    background: url(../images/icons/Logo.png) no-repeat;
     background-size: contain;
     display: inline-block;
     vertical-align: bottom;
@@ -56,31 +56,31 @@
 	-webkit-box-sizing: border-box;
     margin-top: 10px;
 }
-.head-logo-a{
+.header .logo-a{
     width: 100%;
     height: 100%;
     display: block;
 }
-.head-menu-ul{
+.header ul{
 	margin-top: 23px;
 }
-.head-menu-li{
+.header li{
 	font-family: Segoe UI, Arial, sans-serif;
     text-transform: uppercase;
     margin-right: 38px;
 }
-.head-menu-a{
+.header .nav-a{
     display: block;
     width: 100%;
     height: 100%;
     color: #fff;
     text-decoration: none;
 }
-.header-login{
-	height: 95px;
+.header .login{
+	height: 98px;
     text-align: center;
 }
-.header-logBG{
+.header .logBG{
     display: inline-block;
     vertical-align: middle;
     height: inherit;
@@ -88,13 +88,31 @@
     background-color: #2a4155;
     text-align: center;
 }
-.head-log-a{
+.header .login-a{
     display: block;
     margin: 0 auto; 
     margin-top: 20px;
     text-decoration: none;
+    color: #fff;
 }
-.head-log-p{
-    margin: 0 auto;
-    color: #fff; 
+.header .login-a:before{
+    content: url("../images/icons/Login.png");
+    display: block;
 }
+sdf
+sdf
+sdf
+sdf
+sdf
+sd
+fsd
+fsd
+f
+sdf
+sdf
+sdf
+sd
+fsd
+f
+sdf
+sdf

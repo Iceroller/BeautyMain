@@ -1,30 +1,29 @@
 
-    <div class="header-bg">
+    <div class="header">
         <div class="container">
-            <div class="header-wrap">
-                <div id="head-logo-wrap">
-                    <strong id="header-logo">
-                        <a class="head-logo-a" href="homepage.php">Beauty Main</a>
+            <div class="wrap">
+                <div id="logo-wrap">
+                    <strong id="logo">
+                        <a class="logo-a" href="homepage.php">Beauty Main</a>
                     </strong>
                 </div>
-                <div class="header-menu">
-                    <ul class="head-menu-ul">
-                        <li class="head-menu-li"><a class="head-menu-a" href="homepage.php">Home</a></li>
-                        <li class="head-menu-li"><a class="head-menu-a" href="#">Search</a></li>
-                        <li class="head-menu-li"><a class="head-menu-a"  href="#">Service</a></li>
-                        <li class="head-menu-li"><a class="head-menu-a" href="#">Info</a></li>
-                        <li class="head-menu-li"><a class="head-menu-a" href="#">Contact us</a></li>
+                <div class="nav">
+                    <ul>
+                        <li><a class="nav-a" href="homepage.php">Home</a></li>
+                        <li><a class="nav-a" href="#">Search</a></li>
+                        <li><a class="nav-a"  href="#">Service</a></li>
+                        <li><a class="nav-a" href="#">Info</a></li>
+                        <li><a class="nav-a" href="#">Contact us</a></li>
                     </ul>
                 </div>
-                <div class="header-login">
-                    <div class="header-logBG">
-                        <a class="head-log-a" href="#"><img src="images/icons/Login.png" alt="login"><p class="head-log-p">login</p></a>
-                        
+                <div class="login">
+                    <div class="logBG">
+                        <a class="login-a" href="#">login</a></a>
                     </div>
                 </div>
-                <div class="header-fake"></div>
-                <div class="header-fake"></div>
-                <div class="header-fake"></div>
+                <div class="fake"></div>
+                <div class="fake"></div>
+                <div class="fake"></div>
             </div><!--header-wrap-->
         </div>   <!--container-->
     </div><!--header-bg-->

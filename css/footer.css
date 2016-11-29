@@ -1,13 +1,13 @@
-.footer-bg{
+.footer{
     background: #262f37;
 }
-.footer-wrap{
+.footer .wrap{
     text-align: justify;
     line-height: 0;
     font-size: 1px;
     text-justify: newspaper;
 }
-#foot-logo-wrap, .footer-info{
+.footer #logo-wrap, .footer .info{
     width: 20%;
     height: 98px;
     display: inline-block;
@@ -16,7 +16,7 @@
     font-size: 14px;
     vertical-align: top;
 }
-.footer-empty{
+.footer .empty{
     width: 60%;
     height: 98px;
     display: inline-block;
@@ -25,7 +25,7 @@
     font-size: 14px;
     vertical-align: top;
 }
-.footer-fake{
+.footer .fake{
 	width: 30%;
     display: inline-block;
     vertical-align: middle;
@@ -34,18 +34,18 @@
 	font-size:0;
 	margin:0;
 }
-#logo-wrap, li{
+.footer #logo-wrap, .footer li{
 	display: inline-block;
     vertical-align: middle;
     line-height: 60px;
 }
-#foot-logo-wrap{
+.footer #logo-wrap{
     text-align: center;
 }
-#footer-logo{
+.footer #logo{
     width: 132px;
     height: 79px;
-    background: url(images/icons/Logo.png) no-repeat;
+    background: url(../images/icons/Logo.png) no-repeat;
     background-size: contain;
     display: inline-block;
     vertical-align: bottom;
@@ -55,29 +55,26 @@
 	-webkit-box-sizing: border-box;
     margin-top: 10px;
 }
-.foot-logo-a{
+.footer .logo-a{
     width: 100%;
     height: 100%;
     display: block;
 }
-.footer-info{
+.footer .info{
 	height: 95px;
     display: inline-block;
     vertical-align: middle;
     height: inherit;
     text-align: center;
 }
-.foot-info-span{
-    display: inline-block;
-}
-.foot-info-a{
+.footer .info-a{
     display: block;
     margin: 0 auto; 
     margin-top: 20px;
     text-decoration: none;
     color: #fff;
 }
-.foot-info-p{
-    color: #fff;
-    display: inline-block;
+.footer .info-a:nth-child(2):before{
+    content: "|";
+    color: #fff; 
 }
