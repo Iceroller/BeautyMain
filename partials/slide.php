@@ -1,18 +1,5 @@
-<!DOCTYPE html>
-<html >
-<head>
-  <meta charset="UTF-8">
-  <title></title>
-  
-
-    <link rel="stylesheet" href="../css/style.css">
-
-  
-</head>
-
-<body>
-    <div class="container">
-       <div class="entryForm">
+<div class="slider-parent">
+        <div class="entryForm">
             <h2 class="hero-h2">Welcome!</h2>
             <form class="entry" action="#">
                 <span class="name">Email</span>
@@ -31,13 +18,13 @@
                 <input class="sumit" type="submit" value="Sign up now">
             </form>
             <table class="entry-table"><tr>
-                <td class="title">&nbsp;</td>
-                <td class="enter" rowspan="2">Enter from</td>
-                <td class="title">&nbsp;</td>
-            </tr><tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr></table>
+                    <td class="title">&nbsp;</td>
+                    <td class="enter" rowspan="2">Enter from</td>
+                    <td class="title">&nbsp;</td>
+                </tr><tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr></table>
             <div class="socials">
                 <div class="vk">
                     <a href="#">
@@ -57,41 +44,47 @@
             </div>
         </div><!--entryForm-->
         <div id="slick">
-           
+
             <div>
-                <div class="img--holder first"></div>
+                <div class="img--holder first">
+                </div>
             </div>
             <div>
-                <div class="img--holder second"></div>
+                <div class="img--holder second">
+                </div>
             </div>
             <div>
-                <div class="img--holder third"></div>
+                <div class="img--holder third">
+                </div>
             </div>
             <div>
-                <div class="img--holder fourth"></div>
+                <div class="img--holder fourth">
+                </div>
             </div>
             <div>
-                <div class="img--holder fifth"></div>
+                <div class="img--holder fifth">
+                </div>
             </div>
             <div>
-                <div class="img--holder sixth"></div>
+                <div class="img--holder sixth">
+                </div>
             </div>
             <div>
-                <div class="img--holder seventh"></div>
+                <div class="img--holder seventh">
+                </div>
             </div>
             <div>
-                <div class="img--holder eighth"></div>
+                <div class="img--holder eighth">
+                </div>
             </div>
             <div>
-                <div class="img--holder nineth"></div>
+                <div class="img--holder nineth">
+                </div>
             </div>
         </div>
-            <!-- /#slick -->
-    </div>
-        <!-- /.container -->
-    <script src='../js/libs/jquery.js'></script>
-    <script src='../js/slick.js'></script>
-    <script src="../js/index.js"></script>
+<!-- /#slick -->
+</div>
+</div>
 
-</body>
-</html>
+
+

@@ -1,6 +1,11 @@
 .header{
     border-bottom: 3px solid #2a699d;
     background: #262f37;
+    position: fixed;
+    width: 100%;
+    left:0;
+    top:0;
+    z-index: 50;
 }
 .header .wrap{
     text-align: justify;

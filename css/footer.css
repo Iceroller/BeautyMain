@@ -37,7 +37,24 @@
 .footer #logo-wrap, .footer li{
 	display: inline-block;
     vertical-align: middle;
+}
+.footer li{
+    position: relative;
     line-height: 60px;
+    padding: 0 0 0 10px;
+}
+
+.footer li:before{
+    content:'';
+    position: absolute;
+    left:3px;
+    top:50%;
+    transform: translateY(-50%);
+    border-left: 1px solid #fff;
+    height: 20px;
+}
+.footer li:first-child:before{
+    display: none;
 }
 .footer #logo-wrap{
     text-align: center;
@@ -61,16 +78,14 @@
     display: block;
 }
 .footer .info{
-	height: 95px;
     display: inline-block;
     vertical-align: middle;
-    height: inherit;
     text-align: center;
 }
 .footer .info-a{
-    display: block;
-    margin: 0 auto; 
-    margin-top: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
     text-decoration: none;
     color: #fff;
 }

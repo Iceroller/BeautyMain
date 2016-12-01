@@ -94,6 +94,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     left: 0;
     display: block;
 }
+.slider-parent{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: 2;
+}
+.sep{
+    min-height: 700px;
+    display: block;
+}
+.wrapper{
+    position: relative;
+    background: #fff;
+    z-index: 2;
+}
 .slick-track:before,
 .slick-track:after {
     display: table;
@@ -174,6 +191,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 .first:before{
     background: rgba(46, 21, 10, 0.14);

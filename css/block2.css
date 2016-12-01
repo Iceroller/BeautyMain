@@ -4,6 +4,9 @@
 .block2 .forward .slide{
     z-index: 10;
 }
+.block2 .hhh{
+    position: relative;
+}
 .block2 .hhh:after{
     content: ".";
     background: rgba(46, 32, 20, 0.4);
@@ -142,6 +145,8 @@
 .block2 .slick-slide img
 {
     display: block;
+    margin: 0;
+    width: 100%;
 }
 .block2 .slick-slide.slick-loading img
 {

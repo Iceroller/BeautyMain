@@ -4,7 +4,7 @@ $(document).ready(function(){
 		autoplay: true,
 		autoplaySpeed: 600,
 		arrows: false,
-		slidesToShow: 10,
+		slidesToShow: 10
   });
 $(document).ready(function(){
     $('.backward').slick({
@@ -13,14 +13,24 @@ $(document).ready(function(){
 		autoplaySpeed: 600,
 		arrows: false,
 		slidesToShow: 10.5,
-		slidesToScroll: -1,
+		slidesToScroll: -1
   });
 	
 	$('.forward').on('beforeChange', function(event, slick, currentSlide, previousSlide){
-  console.log(previousSlide);
 });
 });
     $('.backward').on('beforeChange', function(event, slick, currentSlide, previousSlide){
-  console.log(previousSlide);
 });
 });
+
+
+
+(function($) {
+    $(function(){
+
+        /*This area from init Function*/
+    });
+
+    /*This area from declaration plugins*/
+})(jQuery);
+
