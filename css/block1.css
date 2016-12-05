@@ -4,9 +4,10 @@
     margin: 0 auto;
     z-index: 2;
 }
-.block1 h1{
+.block1 h2{
     font-size: 50px;
     color: #000;
+    padding: 50px 0;
 }
 .block1 p{
     font-size: 20px;
