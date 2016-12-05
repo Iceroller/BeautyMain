@@ -1,38 +1,206 @@
-.class{
-    opacity:0.7; -moz-opacity:0.7;
-    filter:alpha(opacity=70);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
 }
-.hero-slide{
-    background: url(images/img1.jpg) top center no-repeat;
-    background-size: cover;
-    text-align: center;
+html {
+    line-height: 1;
 }
-.hero-slide:after{
-    content: ".";
-    background: rgba(46, 32, 20, 0.3);
-    width: 100%;
-    height: 100%;
+.slider-parent ol, .slider-parent ul {
+    list-style: none;
+}
+.slider-parent table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.slider-parent caption,.slider-parent th, .slider-parent td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+.slider-parent q, .slider-parent blockquote {
+    quotes: none;
+}
+.slider-parent q:before, .slider-parent q:after, .slider-parent blockquote:before, .slider-parent blockquote:after {
+    content: "";
+    content: none;
+}
+.slider-parent a img {
+    border: none;
+}
+.slider-parent article, .slider-parent aside, .slider-parent details, .slider-parent figcaption, .slider-parent figure, .slider-parent footer, .slider-parent header, .slider-parent hgroup, .slider-parent main, .slider-parent menu, .slider-parent nav, .slider-parent section, .slider-parent summary {
     display: block;
 }
-#jssor_1{
+.slider-parent .cf:after, .slider-parent .slick-dots:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.slider-parent *, .slider-parent *:before, .slider-parent *:after {
+    box-sizing: border-box;
+}
+.slider-parent .slick-slider {
     position: relative;
-    margin: 0 auto;
-    top: 0px;
-    left: 0px;
-    width: 1300px;
-    height: 500px;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+.slider-parent .slick-list {
+    position: relative;
+    display: block;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slider-parent .slick-list:focus {
+    outline: 0;
+}
+.slider-parent .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+.slider-parent .slick-slider .slick-track,
+.slider-parent .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.slider-parent .slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slider-parent .slick-track:before,
+.slider-parent .slick-track:after {
+    display: table;
+    content: '';
+}
+.slider-parent .slick-track:after {
+    clear: both;
+}
+.slider-parent .slick-loading .slick-track {
     visibility: hidden;
 }
+.slider-parent .slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slider-parent .slick-slide {
+    float: right;
+}
+.slider-parent .slick-slide img {
+    display: block;
+}
+.slider-parent .slick-slide .slick-loading img {
+    display: none;
+}
+.slider-parent .slick-slide .dragging img {
+    pointer-events: none;
+}
+.slider-parent .slick-initialized .slick-slide {
+    display: block;
+}
+.slider-parent .slick-loading .slick-slide {
+    visibility: hidden;
+}
+.slider-parent .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slider-parent .slick-arrow.slick-hidden {
+    display: none;
+}
+.slider-parent .container {
+    position: relative;
+}
+.slider-parent .slick-dots {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 3px;
+}
+.slider-parent .slick-dots li {
+    cursor: pointer;
+    float: left;
+    width: 33.3%;
+    background: #000;
+    padding: 0;
+    border-right: 1px solid #fff;
+}
+.slider-parent .slick-dots li:last-child {
+    border: none;
+}
+.slider-parent .slick-dots li, .slick-dots li button {
+    outline: none;
+}
+.slider-parent .slick-dots li button {
+    background: #99B386;
+    border: none;
+    width: 0px;
+    height: 10px;
+    padding: 0;
+    cursor: pointer;
+    display: block;
+}
+.slider-parent{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: 0;
+    margin-top: 100px;
+}
+.slider-parent .slick-slide .img--holder {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/*
 .entryForm{
-    display: inline-block;
-    vertical-align: middle;
     background: rgba(255, 255, 255, 0.85);
     border-radius: 5px;
-    margin-top: 30px;
-}
-form{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0px;
     width: 220px;
+    height: 500px;
+    z-index: 10;
+}
+form{ 
     display: inline-block;
     vertical-align: middle;
     text-align: right;
@@ -116,3 +284,5 @@ table{
 	color: #fff;
     margin-top: 10px;
 }
+*/
+

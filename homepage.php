@@ -3,10 +3,9 @@
 <?php include("partials/head.php"); ?>
 <body>
 <?php include("partials/header.php"); ?>
-<?php include("partials/slide.php"); ?>
+<?php include("partials/hero.php"); ?>
 <span class="sep"></span>
 <div class="wrapper">
-
     <?php include("partials/block1.php"); ?>
     <?php include("partials/block2.php"); ?>
     <?php include("partials/block3.php"); ?>

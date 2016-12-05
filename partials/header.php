@@ -1,5 +1,5 @@
 
-    <div class="header">
+    <div id="header">
         <div class="container">
             <div class="wrap">
                 <div id="logo-wrap">

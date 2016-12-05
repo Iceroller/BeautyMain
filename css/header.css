@@ -1,4 +1,4 @@
-.header{
+#header{
     border-bottom: 3px solid #2a699d;
     background: #262f37;
     position: fixed;
@@ -7,13 +7,13 @@
     top:0;
     z-index: 50;
 }
-.header .wrap{
+#header .wrap{
     text-align: justify;
     line-height: 0;
     font-size: 1px;
     text-justify: newspaper;
 }
-.header #logo-wrap, .header .login{
+#header #logo-wrap, #header .login{
     width: 20%;
     height: 98px;
     display: inline-block;
@@ -22,7 +22,7 @@
     font-size: 14px;
     vertical-align: top;
 }
-.nav{
+#header .nav{
     width: 50%;
     height: 98px;
     display: inline-block;
@@ -31,7 +31,7 @@
     font-size: 14px;
     vertical-align: top;
 }
-.fake{
+#header .fake{
 	width: 30%;
     display: inline-block;
     vertical-align: middle;
@@ -40,15 +40,15 @@
 	font-size:0;
 	margin:0;
 }
-.header #logo-wrap, .header li{
+#header #logo-wrap, #header li{
 	display: inline-block;
     vertical-align: middle;
     line-height: 60px;
 }
-.header #logo-wrap{
+#header #logo-wrap{
     text-align: center;
 }
-.header #logo{
+#header #logo{
     width: 132px;
     height: 79px;
     background: url(../images/icons/Logo.png) no-repeat;
@@ -61,31 +61,31 @@
 	-webkit-box-sizing: border-box;
     margin-top: 10px;
 }
-.header .logo-a{
+#header .logo-a{
     width: 100%;
     height: 100%;
     display: block;
 }
-.header ul{
+#header ul{
 	margin-top: 23px;
 }
-.header li{
+#header li{
 	font-family: Segoe UI, Arial, sans-serif;
     text-transform: uppercase;
     margin-right: 38px;
 }
-.header .nav-a{
+#header .nav-a{
     display: block;
     width: 100%;
     height: 100%;
     color: #fff;
     text-decoration: none;
 }
-.header .login{
+#header .login{
 	height: 98px;
     text-align: center;
 }
-.header .logBG{
+#header .logBG{
     display: inline-block;
     vertical-align: middle;
     height: inherit;
@@ -93,31 +93,14 @@
     background-color: #2a4155;
     text-align: center;
 }
-.header .login-a{
+#header .login-a{
     display: block;
     margin: 0 auto; 
     margin-top: 20px;
     text-decoration: none;
     color: #fff;
 }
-.header .login-a:before{
+#header .login-a:before{
     content: url("../images/icons/Login.png");
     display: block;
-}
-sdf
-sdf
-sdf
-sdf
-sdf
-sd
-fsd
-fsd
-f
-sdf
-sdf
-sdf
-sd
-fsd
-f
-sdf
-sdf
+}    

@@ -1,5 +1,6 @@
 .block2{
     position: relative;
+    z-index: 2;
 }
 .block2 .forward .slide{
     z-index: 10;

@@ -1,13 +1,13 @@
-.footer{
+#footer{
     background: #262f37;
 }
-.footer .wrap{
+#footer .wrap{
     text-align: justify;
     line-height: 0;
     font-size: 1px;
     text-justify: newspaper;
 }
-.footer #logo-wrap, .footer .info{
+#footer #logo-wrap, #footer .info{
     width: 20%;
     height: 98px;
     display: inline-block;
@@ -16,7 +16,7 @@
     font-size: 14px;
     vertical-align: top;
 }
-.footer .empty{
+#footer .empty{
     width: 60%;
     height: 98px;
     display: inline-block;
@@ -25,7 +25,7 @@
     font-size: 14px;
     vertical-align: top;
 }
-.footer .fake{
+#footer .fake{
 	width: 30%;
     display: inline-block;
     vertical-align: middle;
@@ -34,32 +34,33 @@
 	font-size:0;
 	margin:0;
 }
-.footer #logo-wrap, .footer li{
+#footer #logo-wrap, #footer li{
 	display: inline-block;
     vertical-align: middle;
 }
-.footer li{
+#footer li{
     position: relative;
     line-height: 60px;
     padding: 0 0 0 10px;
 }
-
-.footer li:before{
+#footer li:before{
     content:'';
     position: absolute;
     left:3px;
     top:50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     border-left: 1px solid #fff;
     height: 20px;
 }
-.footer li:first-child:before{
+#footer li:first-child:before{
     display: none;
 }
-.footer #logo-wrap{
+#footer #logo-wrap{
     text-align: center;
 }
-.footer #logo{
+#footer #logo{
     width: 132px;
     height: 79px;
     background: url(../images/icons/Logo.png) no-repeat;
@@ -72,24 +73,24 @@
 	-webkit-box-sizing: border-box;
     margin-top: 10px;
 }
-.footer .logo-a{
+#footer .logo-a{
     width: 100%;
     height: 100%;
     display: block;
 }
-.footer .info{
+#footer .info{
     display: inline-block;
     vertical-align: middle;
     text-align: center;
 }
-.footer .info-a{
+#footer .info-a{
     display: inline-block;
     vertical-align: middle;
     margin: 0 auto;
     text-decoration: none;
     color: #fff;
 }
-.footer .info-a:nth-child(2):before{
+#footer .info-a:nth-child(2):before{
     content: "|";
     color: #fff; 
 }

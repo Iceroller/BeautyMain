@@ -31,3 +31,12 @@ body{
     width: 1024px;
     margin: 0 auto;
 } 
+.sep{
+    min-height: 700px;
+    display: block;
+}
+.wrapper{
+    position: relative;
+    background: #fff;
+    z-index: 0;
+}
