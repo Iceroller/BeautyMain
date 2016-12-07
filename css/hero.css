@@ -1,3 +1,157 @@
+.slider-parent{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 100px;
+    left:0;
+    z-index: 0;
+    text-align: center;
+}
+.slider-parent .img--holder {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.slider-parent .entryForm{
+    display: block;
+    vertical-align: middle;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    z-index: 20;
+    width: 100%;
+    height: 50%;
+}
+.slider-parent .formWrap{
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+    height: 450px;
+}
+.slider-parent h2{
+    text-align: center;
+    padding: 30px 0 20px 0;
+    margin: 0;
+}
+.slider-parent .entry{
+    width: 250px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+.slider-parent .row, .slider-parent .rowGender{
+	width: 100%;
+    padding-bottom: 15px;
+}
+.slider-parent .row:after, .slider-parent .rowGender:after{
+    content: "";
+    display: block;
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+}
+.slider-parent .name, .slider-parent .gender {
+	float: left;
+    width: 25%;
+    text-align: right;
+    padding: 3px 15px 0 0;
+}
+.slider-parent .inputWrap{
+    width: 65%;
+    overflow: hidden;
+    border: 1px solid #d0cec9;
+    height: 20px;
+}
+.slider-parent .inp{
+    width: 100%;
+} 
+.slider-parent .name, .slider-parent .gender, .slider-parent .enter-social, .slider-parent .nameGender{
+    font-size: 14px;
+    color: #537fa8;
+}
+.slider-parent .gender{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 15px 0 0;
+}
+.slider-parent .rowGender{
+    text-align: left;
+}
+.slider-parent .nameGender, slider-parent .radio{
+    padding-top: 2px;
+}
+.slider-parent .nameGender{
+    display: inline-block;
+    vertical-align: middle;
+}
+.slider-parent .radio{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+}
+.slider-parent .sumit{
+    background: #0db233;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin: 0 40px 20px 0;
+}
+.slider-parent .enter-social{
+    text-align: center;
+}
+.slider-parent .enter-social h4:after, .slider-parent .enter-social h4:before{
+	content: ".";
+    border-top: 1px solid gray;
+    width: 60px;
+    font-size: 4px;
+    display: inline-block;
+    margin: 0 10px;
+}
+.slider-parent h4{
+    padding-bottom: 20px;
+}
+.slider-parent .socials {
+	margin: 0 auto;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.slider-parent li{
+    display: inline-block;
+    vertical-align: middle;
+    height: 28px;
+    width: 28px;
+}
+.slider-parent .vk{
+    background: #507299;
+    font-family: "fontello";
+}
+.slider-parent .fb{
+    background: #43609C;
+    font-family: "fontello";
+}
+.slider-parent .gPlus{
+    background: #DB4437;
+    font-family: "fontello";
+}
+.slider-parent .vk, .slider-parent .fb, .slider-parent .gPlus{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.slider-parent i{
+    color: #fff;
+    line-height: 28px;  
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -170,121 +324,3 @@ html {
     cursor: pointer;
     display: block;
 }
-.slider-parent{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 100px;
-    left:0;
-    z-index: 0;
-}
-.slider-parent .img--holder {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    width: 100%;
-    height: 100%;
-}
-/*
-.entryForm{
-    background: rgba(255, 255, 255, 0.85);
-    border-radius: 5px;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: 0px;
-    width: 220px;
-    height: 500px;
-    z-index: 10;
-}
-form{ 
-    display: inline-block;
-    vertical-align: middle;
-    text-align: right;
-    padding: 0 30px;
-}
-.name{
-	display: inline-block;
-    vertical-align: middle;
-    margin-bottom: 10px;
-}
-.name, .gender, .enter{
-    font-size: 14px;
-    color: #537fa8;
-}
-.inp{
-    border: 1px solid #d0cec9;
-    background-color: #fff;
-    margin-bottom: 10px;
-    width: 150px;
-    height: 20px;
-}
-.gender{
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0;
-    margin-bottom: 10px;
-}
-.female{
-    margin-right: 40px;
-}
-.sumit{
-    background: #0db233;
-    color: #fff;
-    font-size: 15px;
-    border: none;
-    border-radius: 2px;
-    padding: 10px 20px;
-    margin-right: 25px;
-}
-.hero-h2{
-    text-align: center;
-    padding: 30px 0 20px 0;
-    margin: 0;
-}
-table{
-    margin: 0 auto;
-}
-.title{
-    border-bottom: 1px solid gray;
-    width: 35%;
-}
-.enter{
-    vertical-align: middle;
-    text-align: center;
-}
-.socials {
-	margin: 0 auto;
-    text-align: center;
-    margin-bottom: 35px;
-}
-.vk, .fb, .gPlus{
-    display: inline-block;
-    vertical-align: middle;
-    height: 28px;
-    width: 28px;
-    border-radius: 2px;
-}
-.vk{
-    background: #507299;
-    font-family: "fontello";
-}
-.fb{
-    background: #43609C;
-    font-family: "fontello";
-}
-.gPlus{
-    background: #DB4437;
-    font-family: "fontello";
-}
-.icon-vkontakte, .icon-facebook, .icon-gplus{
-	color: #fff;
-    margin-top: 10px;
-}
-*/
-

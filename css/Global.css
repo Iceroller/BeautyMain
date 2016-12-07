@@ -27,6 +27,9 @@ body{
     background-color: #fff;
     font-family: arial, sans-serif;
 }
+.superWrapper{
+    width: 100%;
+}
 .container {
     width: 1024px;
     margin: 0 auto;

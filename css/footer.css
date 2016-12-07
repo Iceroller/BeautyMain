@@ -83,6 +83,9 @@
     vertical-align: middle;
     text-align: center;
 }
+#footer .info ul{
+    line-height: 100px;
+}
 #footer .info-a{
     display: inline-block;
     vertical-align: middle;

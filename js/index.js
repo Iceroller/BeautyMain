@@ -8,8 +8,8 @@ jQuery(function($) {
     var Application = {
 
         settings: {
-            sliderAutoplaySpeed: 7000,
-            sliderSpeed: 1200
+            sliderAutoplaySpeed: 3500,
+            sliderSpeed: 2000
         },
 
         elements: {
@@ -42,10 +42,11 @@ jQuery(function($) {
             el.slider.slick({
                 arrows: false,
                 dots: false,
-                autoplay: false,
+                autoplay: true,
                 autoplaySpeed: set.sliderAutoplaySpeed,
-                fade: false,
+                fade: true,
                 speed: set.sliderSpeed,
+                cssEase: 'linear',
                 pauseOnHover: false,
                 pauseOnDotsHover: true
             });
