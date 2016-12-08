@@ -8,7 +8,7 @@
                 <label class="name" for="email">Email</label>
                 <div class="inputWrap">
                     <input class="inp" id="email" type="email">
-                </div>
+                </div> 
             </div>
             <div class="rowGender">
                 <span class="gender">Gender</span>

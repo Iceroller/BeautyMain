@@ -26,7 +26,7 @@
                     <label class="name" for="last-name">Last Name</label>
                     <div class="inputWrap">
                         <input class="inp" id="last-name" type="text">    
-                    </div>
+                    </div> 
                 </div>
                 <div class="row">
                     <label class="name" for="password">Password</label>

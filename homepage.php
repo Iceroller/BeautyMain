@@ -13,4 +13,4 @@
     <?php include("partials/footer.php"); ?>
 </div>
 </body>
-</html>
+</html> ывыв

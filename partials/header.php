@@ -26,4 +26,4 @@
                 <div class="fake"></div>
             </div><!--header-wrap-->
         </div>   <!--container-->
-    </div><!--header-bg-->
+    </div><!--header-bg-->  

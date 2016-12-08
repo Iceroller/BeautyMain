@@ -20,4 +20,4 @@
         </div>   <!--container-->
     </div><!--footer-->
 
-    <?php include("js-connections.php"); ?>
+    <?php include("js-connections.php"); ?> 

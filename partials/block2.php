@@ -43,7 +43,7 @@
         <div class="slide-forw">
             <a href="#">
                 <img src="images/img19.jpg" alt="img">
-            </a>    
+            </a>     
         </div>
         <div class="slide-forw">
             <a href="#">
