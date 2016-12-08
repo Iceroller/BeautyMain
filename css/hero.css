@@ -7,16 +7,6 @@
     z-index: 0;
     text-align: center;
 }
-.slider-parent .img--holder {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    width: 100%;
-    height: 100%;
-}
 .slider-parent .entryForm{
     display: block;
     vertical-align: middle;

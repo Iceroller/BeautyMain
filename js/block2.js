@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     $('.forward').slick({
     аccessibility: false,
@@ -33,4 +34,3 @@ $(document).ready(function(){
 
     /*This area from declaration plugins*/
 })(jQuery);
-

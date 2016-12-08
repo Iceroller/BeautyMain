@@ -66,6 +66,9 @@
     height: 100%;
     display: block;
 }
+#header .nav{
+    text-align: center;
+}
 #header ul{
 	margin-top: 23px;
 }
@@ -83,7 +86,7 @@
 }
 #header .login{
 	height: 98px;
-    text-align: center;
+    text-align: left;
 }
 #header .logBG{
     display: inline-block;
