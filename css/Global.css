@@ -35,6 +35,7 @@ body {
     height: 100%;
     background: #fff;
     min-width: 300px;
+    min-height: 600px;
 }
 html {
     height: 100%;
@@ -127,7 +128,7 @@ button[disabled], input[disabled] {cursor:default;}
 button::-moz-focus-inner, input::-moz-focus-inner {border:0;padding:0;}
 button {padding:0}
 input[type="checkbox"], input[type="radio"] {width:15px; height:16px; padding:0; margin:0;}
-input, textarea, select {font:100% 'Source Sans Pro', Arial, Helvetica, sans-serif; vertical-align:middle; color:#000;}
+input, textarea, select {font:100% 'Source Sans Pro', Arial, Helvetica, sans-serif; vertical-align:middle; color:#000; background-image: none !important;}
 textarea {resize:vertical; margin:0; padding:0; overflow:auto; vertical-align:top; outline:none;}
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {-webkit-appearance:none;}
 input::-moz-placeholder {color:#000;opacity:1;}
@@ -234,30 +235,28 @@ textarea:focus::placeholder {color:transparent;}
 body{
     background-color: #fff;
     font-family: arial, sans-serif;
-    min-width: 320px;
+    min-width: 748px;
 }
 .container {
     width: 1024px;
     margin: 0 auto;
 } 
 .sep{
-    min-height: 1200px;
+    height: 100%;
     display: block;
+    min-height: 547px;
 }
 .wrapper{
     position: relative;
     background: #fff;
     z-index: 0;
+    min-height: 100%;
 }
 /****************************************************************              PC              ***********************************************/
-@media screen and (max-width: 1900px) {
+
+@media screen and (max-width: 1024px) {
     .container{
-        width: 1200px;
-    } 
-}
-@media screen and (max-width: 1240px) {
-    .container{
-        width: 900px;
+        width: 978px;
     }
     #header #logo-wrap, #header .login{
         width: 15% !important;
@@ -265,14 +264,12 @@ body{
     #header .nav{
         width: 70% !important;
     }
-    .slider-parent{
-        height: 10% !important;
-    }
+
 }
 /****************************************************************              TABLET              ***********************************************/
 @media screen and (max-width: 978px) {
     .container{
-        width: 700px;
+        width: 748px;
     }
     #footer #logo-wrap, #footer .info{
         width: 30% !important;
@@ -280,15 +277,16 @@ body{
     #footer .empty{
         width: 30% !important;
     }
+    .sep{
+        height: 0;
+        min-height: 0;
+    }
+
 }
 /****************************************************************              MOBILE              ***********************************************/
 @media screen and (max-width:748px) {
     .container{
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     }
 }
-@media screen and (max-width:500px) { 
-}
-@media screen and (max-width:400px) {
-}    

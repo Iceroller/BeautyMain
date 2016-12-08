@@ -6,7 +6,6 @@
                         <a class="logo-a" href="homepage.php">Beauty Main</a>
                     </strong>
                 </div>
-                <div class="empty"></div>
                 <div class="info">
                    <ul>
                        <li><a class="info-a" href="#">Home</a></li>

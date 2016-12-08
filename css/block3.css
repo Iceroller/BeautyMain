@@ -1,6 +1,5 @@
 .map{
     width: 100%;
-    height: 40em;
     text-align: center;
     z-index: 3000;
     vertical-align: center;
@@ -16,9 +15,7 @@
     left:0;
     display: block;
     width: 100%;
-    height: 100%;
 }
 .map img{
     width: 100%;
-    height: 100%;
 } 

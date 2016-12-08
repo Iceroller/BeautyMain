@@ -7,6 +7,11 @@
     font-size: 1px;
     text-justify: newspaper;
 }
+#footer .wrap:after{
+    display: block;
+    clear: both;
+    content:'';
+}
 #footer #logo-wrap, #footer .info{
     width: 20%;
     height: 98px;
@@ -79,9 +84,7 @@
     display: block;
 }
 #footer .info{
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
+    float: right;
 }
 #footer .info ul{
     line-height: 100px;

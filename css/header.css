@@ -106,4 +106,9 @@
 #header .login-a:before{
     content: url("../images/icons/Login.png");
     display: block;
-}    
+}
+@media screen and (max-width: 978px) {
+    #header{
+        position: relative;
+    }
+}
