@@ -12,13 +12,13 @@
     font-family: 'SegoeUILight';
     src: url('../fonts/SegoeUILight/SegoeUILight.woff') format('woff'),
     url('../fonts/SegoeUILight/SegoeUILight.ttf') format('truetype'),
-    url('../fonts/SegoeUILight/SegoeUILight.eot') format('embedded-opentype');
+    url('../fonts/SegoeUILight/SegoeUILight.eot')  format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'SegoeUIRegular';
-    src: url('../fonts/SegoeUIRegular/SegoeUIRegular.woff') format('woff'),
+    src: url('../fonts/SegoeUIRegular  SegoeUIRegular.woff') format('woff'),
     url('../fonts/SegoeUIRegular/SegoeUIRegular.ttf') format('truetype'),
     url('../fonts/SegoeUIRegular/SegoeUIRegular.eot') format('embedded-opentype');
     font-weight: normal;

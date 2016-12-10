@@ -65,10 +65,10 @@
     padding-bottom: 15px;
 }
 .block4 .row:after, .block4 .rowGender:after{
-    content: "";
+    content: ""; 
     display: block;
     clear: both;
-    font-size: 0;
+    font-size: 0; 
     line-height: 0;
 }
 .block4 .name, .block4 .gender {
@@ -97,7 +97,7 @@
     margin: 0 15px 0 0;
 }
 .block4 .rowGender{
-    text-align: left;
+    text-align: left;   
 }
 .block4 .nameGender, block4 .radio{
     padding-top: 2px;
