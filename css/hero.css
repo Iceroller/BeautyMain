@@ -15,9 +15,9 @@
     vertical-align: middle;
     position: absolute;
     top: 50%;
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
     transform: translateY(-50%);
     left: 0;
     z-index: 20;
@@ -34,6 +34,7 @@
     text-align: center;
     padding: 30px 0 20px 0;
     margin: 0;
+    font-family: SegoeUIRegular, Arial, sans-serif;
 }
 .slider-parent .entry{
     width: 250px;
@@ -54,7 +55,7 @@
 }
 .slider-parent .name, .slider-parent .gender {
 	float: left;
-    width: 25%;
+    width: 33%;
     text-align: right;
     padding: 3px 15px 0 0;
 }
@@ -70,6 +71,7 @@
 .slider-parent .name, .slider-parent .gender, .slider-parent .enter-social, .slider-parent .nameGender{
     font-size: 14px;
     color: #537fa8;
+    font-family: SegoeUIRegular, Arial, sans-serif;
 }
 .slider-parent .gender{
     display: inline-block;
@@ -90,11 +92,14 @@
     display: inline-block;
     vertical-align: middle;
     width: 20px;
+    margin-top: 3px;
+    cursor: pointer;
 }
 .slider-parent .sumit{
     background: #0db233;
     color: #fff;
     font-size: 15px;
+    font-family: SegoeUIRegular, Arial, sans-serif;
     border: none;
     border-radius: 2px;
     padding: 10px 20px;
@@ -324,5 +329,8 @@ html {
     .slider-parent{
         position: relative;
         padding-top: 0;
+    }
+    .slider-parent .img--holder{
+        min-height: 600px;
     }
 }

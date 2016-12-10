@@ -8,7 +8,7 @@
 .map h1{
     font-size: 50px;
     color: #2b1a08;
-    font-weight: 100;
+    font-family: SegoeUILight, Arial, sans-serif;
     line-height: 200px;
     position: absolute;
     top: 50px;

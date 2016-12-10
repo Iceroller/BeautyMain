@@ -73,7 +73,7 @@
 	margin-top: 23px;
 }
 #header li{
-	font-family: Segoe UI, Arial, sans-serif;
+	font-family: SegoeUILight, Arial, sans-serif;
     text-transform: uppercase;
     margin-right: 38px;
 }
@@ -102,13 +102,33 @@
     margin-top: 20px;
     text-decoration: none;
     color: #fff;
+    font-family: SegoeUILight, Arial, sans-serif;
 }
 #header .login-a:before{
     content: url("../images/icons/Login.png");
     display: block;
 }
+/****************************************************************              PC              ***********************************************/
+@media screen and (max-width: 1024px) {
+    #header .container{
+        width: 978px;
+    }
+    #header #logo-wrap, #header .login{
+        width: 15% !important;
+    }
+    #header .nav{
+        width: 65% !important;
+    }
+}
+/****************************************************************              TABLET              ***********************************************/
 @media screen and (max-width: 978px) {
+    #header .container{
+        width: 748px;
+    }
     #header{
         position: relative;
+    }
+    #header .nav{
+        padding-left: 20px;
     }
 }

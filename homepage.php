@@ -8,7 +8,7 @@
 <div class="wrapper">
     <?php include("partials/block1.php"); ?>
     <?php include("partials/block2.php"); ?>
-    <?php include("partials/block3.php"); ?>
+    <?php include("partials/map.php"); ?>
     <?php include("partials/block4.php"); ?>
     <?php include("partials/footer.php"); ?>
 </div>

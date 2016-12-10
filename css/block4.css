@@ -21,16 +21,16 @@
     bottom:0;
     left:0;
 } 
-.block4 h1{
+.block4 h2{
     font-size: 50px;
     color: #fff;
     position: absolute;
     display: block;
     width: 100%;
-    height: 50%;
     top: 200px;
     left: 0;
     z-index: 20;
+    font-family: SegoeUIRegular, Arial, sans-serif;
 }
 .block4 .entryForm{
     display: block;
@@ -40,7 +40,6 @@
     left: 0;
     z-index: 20;
     width: 100%;
-    height: 50%;
 }
 .block4 .formWrap{
     background: rgba(255, 255, 255, 0.85);
@@ -49,10 +48,11 @@
     margin: 0 auto;
     height: 450px;
 }
-.block4 h2{
+.block4 h3{
     text-align: center;
     padding: 30px 0 20px 0;
     margin: 0;
+    font-family: SegoeUIRegular, Arial, sans-serif;
 }
 .block4 .entry{
     width: 250px;
@@ -73,12 +73,12 @@
 }
 .block4 .name, .block4 .gender {
 	float: left;
-    width: 25%;
+    width: 33%;
     text-align: right;
     padding: 3px 15px 0 0;
 }
 .block4 .inputWrap{
-    width: 65%;
+    width: 65s%;
     overflow: hidden;
     border: 1px solid #d0cec9;
     height: 20px;
@@ -89,6 +89,7 @@
 .block4 .name, .block4 .gender, .block4 .enter-social, .block4 .nameGender{
     font-size: 14px;
     color: #537fa8;
+    font-family: SegoeUIRegular, Arial, sans-serif;
 }
 .block4 .gender{
     display: inline-block;
@@ -109,11 +110,14 @@
     display: inline-block;
     vertical-align: middle;
     width: 20px;
+    margin-top: 3px;
+    cursor: pointer;
 }
 .block4 .sumit{
     background: #0db233;
     color: #fff;
     font-size: 15px;
+    font-family: SegoeUIRegular, Arial, sans-serif;
     border: none;
     border-radius: 2px;
     padding: 10px 20px;

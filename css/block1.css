@@ -8,10 +8,12 @@
     font-size: 50px;
     color: #000;
     padding: 50px 0;
+    font-family: SegoeUILight, Arial, sans-serif;
 }
 .block1 p{
     font-size: 20px;
     color: #5783ac;
     padding: 0 100px;
+    font-family: SegoeUILight, Arial, sans-serif;
 }
 

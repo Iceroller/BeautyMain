@@ -1,20 +1,28 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: 'CenturyGothic';
-    src: url('../fonts/CenturyGothic.woff') format('woff'),
-    url('../fonts/CenturyGothic.ttf') format('truetype'),
-    url('../fonts/CenturyGothic.svg#CenturyGothic') format('svg');
+    font-family: 'SegoeUISemiBold';
+    src: url('../fonts/SegoeUISemiBold/SegoeUISemiBold.woff') format('woff'),
+    url('../fonts/SegoeUISemiBold/SegoeUISemiBold.ttf') format('truetype'),
+    url('../fonts/SegoeUISemiBold/SegoeUISemiBold.eot') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-  font-family: 'fontello';
-  src: url('../font/fontello.eot?78548701');
-  src: url('../font/fontello.eot?78548701#iefix') format('embedded-opentype'),
-       url('../font/fontello.svg?78548701#fontello') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'SegoeUILight';
+    src: url('../fonts/SegoeUILight/SegoeUILight.woff') format('woff'),
+    url('../fonts/SegoeUILight/SegoeUILight.ttf') format('truetype'),
+    url('../fonts/SegoeUILight/SegoeUILight.eot') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SegoeUIRegular';
+    src: url('../fonts/SegoeUIRegular/SegoeUIRegular.woff') format('woff'),
+    url('../fonts/SegoeUIRegular/SegoeUIRegular.ttf') format('truetype'),
+    url('../fonts/SegoeUIRegular/SegoeUIRegular.eot') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
   font-family: 'fontello';
@@ -252,41 +260,9 @@ body{
     z-index: 0;
     min-height: 100%;
 }
-/****************************************************************              PC              ***********************************************/
-
-@media screen and (max-width: 1024px) {
-    .container{
-        width: 978px;
-    }
-    #header #logo-wrap, #header .login{
-        width: 15% !important;
-    }
-    #header .nav{
-        width: 70% !important;
-    }
-
-}
 /****************************************************************              TABLET              ***********************************************/
 @media screen and (max-width: 978px) {
-    .container{
-        width: 748px;
-    }
-    #footer #logo-wrap, #footer .info{
-        width: 30% !important;
-    }
-    #footer .empty{
-        width: 30% !important;
-    }
     .sep{
-        height: 0;
-        min-height: 0;
-    }
-
-}
-/****************************************************************              MOBILE              ***********************************************/
-@media screen and (max-width:748px) {
-    .container{
-        width: 100%;
-        margin: 0 auto;
+        display: none;
     }
 }

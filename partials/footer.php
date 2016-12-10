@@ -1,4 +1,4 @@
-    <div id="footer">
+    <footer id="footer">
         <div class="container">
             <div class="wrap">
                 <div id="logo-wrap">
@@ -17,6 +17,6 @@
                 <div class="fake"></div>
             </div><!--wrap-->
         </div>   <!--container-->
-    </div><!--footer-->
+    </footer><!--footer-->
 
     <?php include("js-connections.php"); ?> 

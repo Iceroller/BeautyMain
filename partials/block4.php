@@ -1,8 +1,8 @@
 <div class="block4">
-    <h1>We hope you find your love!</h1>
+    <h2>We hope you find your love!</h2>
     <div class="entryForm">
         <div class="formWrap">
-        <h2>Welcome!</h2>
+        <h3>Welcome!</h3>
         <form class="entry" action="#">
             <div class="row">
                 <label class="name" for="email">Email</label>
@@ -12,10 +12,10 @@
             </div>
             <div class="rowGender">
                 <span class="gender">Gender</span>
-                <p class="nameGender">Male</p>
-                <input class="radio" name="gender" type="radio" value="male">
-                <p class="nameGender">Female</p>
-                <input class="radio" name="gender" type="radio" value="female">
+                <label for="male" class="nameGender">Male</label>
+                <input id="male" class="radio" name="gender" type="radio" value="male">
+                <label for="female" class="nameGender">Female</label>
+                <input id="female" class="radio" name="gender" type="radio" value="female">
             </div>
             <div class="row">
                 <label class="name" for="first-name">First Name</label>

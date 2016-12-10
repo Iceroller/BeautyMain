@@ -89,6 +89,10 @@
 #footer .info ul{
     line-height: 100px;
 }
+#footer .info li{
+    font-size: 18px;
+    font-family: SegoeUIRegular, Arial, sans-serif;
+}
 #footer .info-a{
     display: inline-block;
     vertical-align: middle;
@@ -99,4 +103,22 @@
 #footer .info-a:nth-child(2):before{
     content: "|";
     color: #fff; 
+}
+@media screen and (max-width: 1024px) {
+    .container{
+        width: 978px;
+    }
+}
+/****************************************************************              TABLET              ***********************************************/
+@media screen and (max-width: 978px) {
+    .container{
+        width: 748px;
+    }
+    }
+    #footer #logo-wrap, #footer .info{
+        width: 30% !important;
+    }
+    #footer .empty{
+        width: 30% !important;
+    }
 }

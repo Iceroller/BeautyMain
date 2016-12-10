@@ -5,47 +5,40 @@
                 <h2>Welcome!</h2>
                 <form class="entry" action="#">
                     <div class="row">
-                        <label class="name" for="email">Email</label>
-
+                        <label class="name" for="introEmail">Email</label>
                         <div class="inputWrap">
-                            <input class="inp" id="email" type="email">
+                            <input class="inp" id="introEmail" type="email">
                         </div>
                     </div>
                     <div class="rowGender">
                         <span class="gender">Gender</span>
-
-                        <p class="nameGender">Male</p>
-                        <input class="radio" name="gender" type="radio" value="male">
-
-                        <p class="nameGender">Female</p>
-                        <input class="radio" name="gender" type="radio" value="female">
+                        <label for="introMale" class="nameGender">Male</label>
+                        <input id="introMale" class="radio" name="gender" type="radio" value="male">
+                        <label for="introFemale" class="nameGender">Female</label>
+                        <input id="introFemale" class="radio" name="gender" type="radio" value="female">
                     </div>
                     <div class="row">
-                        <label class="name" for="first-name">First Name</label>
-
+                        <label class="name" for="introFirstName">First Name</label>
                         <div class="inputWrap">
-                            <input class="inp" id="first-name" type="text">
+                            <input class="inp" id="introFirstName" type="text">
                         </div>
                     </div>
                     <div class="row">
-                        <label class="name" for="last-name">Last Name</label>
-
+                        <label class="name" for="introLastName">Last Name</label>
                         <div class="inputWrap">
-                            <input class="inp" id="last-name" type="text">
+                            <input class="inp" id="introLastName" type="text">
                         </div>
                     </div>
                     <div class="row">
-                        <label class="name" for="password">Password</label>
-
+                        <label class="name" for="introPassword">Password</label>
                         <div class="inputWrap">
-                            <input class="inp" id="password" type="password">
+                            <input class="inp" id="introPassword" type="password">
                         </div>
                     </div>
                     <div class="row">
-                        <label class="name" for="confirm">Confirm</label>
-
+                        <label class="name" for="introConfirm">Confirm</label>
                         <div class="inputWrap">
-                            <input class="inp" id="confirm" type="password">
+                            <input class="inp" id="introConfirm" type="password">
                         </div>
                     </div>
                     <input class="sumit" type="submit" value="Sign up now">
@@ -144,7 +137,6 @@
         </div>
         <!-- /#slick -->
     </div>
-
 </section>
 
 
