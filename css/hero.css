@@ -62,11 +62,11 @@
 .slider-parent .inputWrap{
     width: 65%;
     overflow: hidden;
-    border: 1px solid #d0cec9;
-    height: 20px;
 }
 .slider-parent .inp{
     width: 100%;
+    border: 1px solid #d0cec9;
+    border-image: none;
 } 
 .slider-parent .name, .slider-parent .gender, .slider-parent .enter-social, .slider-parent .nameGender{
     font-size: 14px;
