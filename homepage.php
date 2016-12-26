@@ -10,7 +10,7 @@
     <?php include("partials/block2.php"); ?>
     <?php include("partials/map.php"); ?>
     <?php include("partials/block4.php"); ?>
-    <?php include("partials/footer.php"); ?>
 </div>
+<?php include("partials/footer.php"); ?>
 </body>
 </html>

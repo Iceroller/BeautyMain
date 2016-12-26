@@ -43,7 +43,6 @@ body {
     height: 100%;
     background: #fff;
     min-width: 300px;
-    min-height: 600px;
 }
 html {
     height: 100%;
@@ -202,6 +201,7 @@ pre, code, kbd, samp {margin:0 0 10px; font:10px/13px Menlo, Consolas, 'DejaVu S
     clear:both;
 }
 
+#__lpform_introEmail_icon , #__lpform_introPassword_icon, #__lpform_introConfirm_icon{display: none !important;}
 /*placrholders*/
 input::-moz-placeholder {color:#9f9f9f;opacity:1;}
 input::-webkit-input-placeholder {color:#9f9f9f;}
