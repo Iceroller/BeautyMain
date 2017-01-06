@@ -1,4 +1,4 @@
-.slider-parent{
+.hero{
     position: fixed;
     width: 100%;
     height: 100%;
@@ -9,149 +9,6 @@
     min-height: 547px;
     box-sizing: border-box;
     padding-top: 100px;
-}
-.slider-parent .entryForm{
-    display: block;
-    vertical-align: middle;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: 0;
-    z-index: 20;
-    width: 100%;
-} 
-.slider-parent .formWrap{
-    background: rgba(255, 255, 255, 0.85);
-    border-radius: 5px;
-    width: 300px;
-    margin: 0 auto;
-    height: 450px;
-}
-.slider-parent h2{
-    text-align: center;
-    padding: 30px 0 20px 0;
-    margin: 0;
-    font-family: SegoeUIRegular, Arial, sans-serif;
-}
-.slider-parent .entry{
-    width: 250px;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: right;
-}
-.slider-parent .row, .slider-parent .rowGender{
-	width: 100%;
-    padding-bottom: 15px;
-}
-.slider-parent .row:after, .slider-parent .rowGender:after{
-    content: "";
-    display: block;
-    clear: both;
-    font-size: 0;
-    line-height: 0;
-}
-.slider-parent .name, .slider-parent .gender {
-	float: left;
-    width: 33%;
-    text-align: right;
-    padding: 3px 15px 0 0;
-}
-.slider-parent .inputWrap{
-    width: 65%;
-    overflow: hidden;
-}
-.slider-parent .inp{
-    width: 100%;
-    border: 1px solid #d0cec9;
-    border-image: none;
-} 
-.slider-parent .name, .slider-parent .gender, .slider-parent .enter-social, .slider-parent .nameGender{
-    font-size: 14px;
-    color: #537fa8;
-    font-family: SegoeUIRegular, Arial, sans-serif;
-}
-.slider-parent .gender{
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 15px 0 0;
-}
-.slider-parent .rowGender{
-    text-align: left;
-}
-.slider-parent .nameGender, slider-parent .radio{
-    padding-top: 2px;
-}
-.slider-parent .nameGender{
-    display: inline-block;
-    vertical-align: middle;
-}
-.slider-parent .radio{
-    display: inline-block;
-    vertical-align: middle;
-    width: 20px;
-    margin-top: 3px;
-    cursor: pointer;
-}
-.slider-parent .sumit{
-    background: #0db233;
-    color: #fff;
-    font-size: 15px;
-    font-family: SegoeUIRegular, Arial, sans-serif;
-    border: none;
-    border-radius: 2px;
-    padding: 10px 20px;
-    margin: 0 40px 20px 0;
-}
-.slider-parent .enter-social{
-    text-align: center;
-}
-.slider-parent .enter-social h4:after, .slider-parent .enter-social h4:before{
-	content: ".";
-    border-top: 1px solid gray;
-    width: 60px;
-    font-size: 4px;
-    display: inline-block;
-    margin: 0 10px;
-}
-.slider-parent h4{
-    padding-bottom: 20px;
-}
-.slider-parent .socials {
-	margin: 0 auto;
-    text-align: center;
-    margin-bottom: 35px;
-}
-.slider-parent li{
-    display: inline-block;
-    vertical-align: middle;
-    height: 28px;
-    width: 28px;
-}
-.slider-parent .vk{
-    background: #507299;
-    font-family: "fontello";
-}
-.slider-parent .fb{
-    background: #43609C;
-    font-family: "fontello";
-}
-.slider-parent .gPlus{
-    background: #DB4437;
-    font-family: "fontello";
-}
-.slider-parent .vk, .slider-parent .fb, .slider-parent .gPlus{
-    width: 100%;
-    height: 100%;
-    display: block;
-    border-radius: 2px;
-    text-decoration: none;
-}
-.slider-parent i{
-    color: #fff;
-    line-height: 28px;  
 }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -176,40 +33,40 @@ time, mark, audio, video {
 html {
     line-height: 1;
 }
-.slider-parent ol, .slider-parent ul {
+.hero ol, .hero ul {
     list-style: none;
 }
-.slider-parent table {
+.hero table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-.slider-parent caption,.slider-parent th, .slider-parent td {
+.hero caption,.hero th, .hero td {
     text-align: left;
     font-weight: normal;
     vertical-align: middle;
 }
-.slider-parent q, .slider-parent blockquote {
+.hero q, .hero blockquote {
     quotes: none;
 }
-.slider-parent q:before, .slider-parent q:after, .slider-parent blockquote:before, .slider-parent blockquote:after {
+.hero q:before, .hero q:after, .hero blockquote:before, .hero blockquote:after {
     content: "";
     content: none;
 }
-.slider-parent a img {
+.hero a img {
     border: none;
 }
-.slider-parent article, .slider-parent aside, .slider-parent details, .slider-parent figcaption, .slider-parent figure, .slider-parent footer, .slider-parent header, .slider-parent hgroup, .slider-parent main, .slider-parent menu, .slider-parent nav, .slider-parent section, .slider-parent summary {
+.hero article, .hero aside, .hero details, .hero figcaption, .hero figure, .hero footer, .hero header, .hero hgroup, .hero main, .hero menu, .hero nav, .hero section, .hero summary {
     display: block;
 }
-.slider-parent .cf:after, .slider-parent .slick-dots:after {
+.hero .cf:after, .hero .slick-dots:after {
     content: "";
     display: table;
     clear: both;
 }
-.slider-parent *, .slider-parent *:before, .slider-parent *:after {
+.hero *, .hero *:before, .hero *:after {
     box-sizing: border-box;
 }
-.slider-parent .slick-slider {
+.hero .slick-slider {
     position: relative;
     display: block;
     box-sizing: border-box;
@@ -223,86 +80,86 @@ html {
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
 }
-.slider-parent .slick-list {
+.hero .slick-list {
     position: relative;
     display: block;
     overflow: hidden;
     margin: 0;
     padding: 0;
 }
-.slider-parent .slick-list:focus {
+.hero .slick-list:focus {
     outline: 0;
 }
-.slider-parent .slick-list.dragging {
+.hero .slick-list.dragging {
     cursor: pointer;
     cursor: hand;
 }
-.slider-parent .slick-slider .slick-track,
-.slider-parent .slick-slider .slick-list {
+.hero .slick-slider .slick-track,
+.hero .slick-slider .slick-list {
     -webkit-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
-.slider-parent .slick-track {
+.hero .slick-track {
     position: relative;
     top: 0;
     left: 0;
     display: block;
 }
-.slider-parent .slick-track:before,
-.slider-parent .slick-track:after {
+.hero .slick-track:before,
+.hero .slick-track:after {
     display: table;
     content: '';
 }
-.slider-parent .slick-track:after {
+.hero .slick-track:after {
     clear: both;
 }
-.slider-parent .slick-loading .slick-track {
+.hero .slick-loading .slick-track {
     visibility: hidden;
 }
-.slider-parent .slick-slide {
+.hero .slick-slide {
     display: none;
     float: left;
     height: 100%;
     min-height: 1px;
 }
-[dir='rtl'] .slider-parent .slick-slide {
+[dir='rtl'] .hero .slick-slide {
     float: right;
 }
-.slider-parent .slick-slide img {
+.hero .slick-slide img {
     display: block;
 }
-.slider-parent .slick-slide .slick-loading img {
+.hero .slick-slide .slick-loading img {
     display: none;
 }
-.slider-parent .slick-slide .dragging img {
+.hero .slick-slide .dragging img {
     pointer-events: none;
 }
-.slider-parent .slick-initialized .slick-slide {
+.hero .slick-initialized .slick-slide {
     display: block;
 }
-.slider-parent .slick-loading .slick-slide {
+.hero .slick-loading .slick-slide {
     visibility: hidden;
 }
-.slider-parent .slick-vertical .slick-slide {
+.hero .slick-vertical .slick-slide {
     display: block;
     height: auto;
     border: 1px solid transparent;
 }
-.slider-parent .slick-arrow.slick-hidden {
+.hero .slick-arrow.slick-hidden {
     display: none;
 }
-.slider-parent .container {
+.hero .container {
     position: relative;
 }
-.slider-parent .slick-dots {
+.hero .slick-dots {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     padding: 0 3px;
 }
-.slider-parent .slick-dots li {
+.hero .slick-dots li {
     cursor: pointer;
     float: left;
     width: 33.3%;
@@ -310,13 +167,13 @@ html {
     padding: 0;
     border-right: 1px solid #fff;
 }
-.slider-parent .slick-dots li:last-child {
+.hero .slick-dots li:last-child {
     border: none;
 }
-.slider-parent .slick-dots li, .slick-dots li button {
+.hero .slick-dots li, .slick-dots li button {
     outline: none;
 }
-.slider-parent .slick-dots li button {
+.hero .slick-dots li button {
     background: #99B386;
     border: none;
     width: 0px;
@@ -326,11 +183,11 @@ html {
     display: block;
 }
 @media screen and (max-width: 978px) {
-    .slider-parent{
+    .hero{
         position: relative;
         padding-top: 0;
     }
-    .slider-parent .img--holder{
+    .hero .img--holder{
         min-height: 600px;
     }
 }

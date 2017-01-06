@@ -1,3 +1,4 @@
+<!-- header start -->
 <header id="header">
     <div class="container">
         <div class="wrap">
@@ -25,4 +26,5 @@
             <div class="fake"></div>
         </div><!--wrap-->
     </div>   <!--container-->
-</header><!--header-bg-->  
+</header>
+<!-- header end -->

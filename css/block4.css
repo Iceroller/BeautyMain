@@ -12,7 +12,7 @@
     z-index: -10;
 }
 .block4:after{
-    content: ".";
+    content: " ";
     background: rgba(46, 32, 20, 0.4);
     width: 100%;
     height: 100%;
@@ -32,136 +32,17 @@
     font-family: SegoeUIRegular, Arial, sans-serif;
 }
 .block4 .entryForm{
-    display: block;
     vertical-align: middle;
-}
-.block4 .formWrap{
-    background: rgba(255, 255, 255, 0.85);
-    border-radius: 5px;
-    width: 300px;
+    z-index: 20;
     margin: 0 auto;
-    height: 450px;
-}
-.block4 h3{
+    position: static;
+    transform: none;
+} 
+.block4 .entryForm h2{
     text-align: center;
-    padding: 30px 0 20px 0;
+    padding: 0 0 20px 0;
     margin: 0;
     font-family: SegoeUIRegular, Arial, sans-serif;
-}
-.block4 .entry{
-    width: 250px;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: right;
-}
-.block4 .row, .block4 .rowGender{
-	width: 100%;
-    padding-bottom: 15px;
-}
-.block4 .row:after, .block4 .rowGender:after{
-    content: ""; 
-    display: block;
-    clear: both;
-    font-size: 0; 
-    line-height: 0;
-}
-.block4 .name, .block4 .gender {
-	float: left;
-    width: 33%;
-    text-align: right;
-    padding: 3px 15px 0 0;
-}
-.block4 .inputWrap{
-    width: 60%;
-    overflow: hidden;
-}
-.block4 .inp{
-    width: 100%;
-    border: 1px solid #d0cec9;
-    border-image: none;
-} 
-.block4 .name, .block4 .gender, .block4 .enter-social, .block4 .nameGender{
-    font-size: 14px;
-    color: #537fa8;
-    font-family: SegoeUIRegular, Arial, sans-serif;
-}
-.block4 .gender{
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 15px 0 0;
-}
-.block4 .rowGender{
-    text-align: left;   
-}
-.block4 .nameGender, block4 .radio{
-    padding-top: 2px;
-}
-.block4 .nameGender{
-    display: inline-block;
-    vertical-align: middle;
-}
-.block4 .radio{
-    display: inline-block;
-    vertical-align: middle;
-    width: 20px;
-    margin-top: 3px;
-    cursor: pointer;
-}
-.block4 .sumit{
-    background: #0db233;
-    color: #fff;
-    font-size: 15px;
-    font-family: SegoeUIRegular, Arial, sans-serif;
-    border: none;
-    border-radius: 2px;
-    padding: 10px 20px;
-    margin: 0 40px 20px 0;
-}
-.block4 .enter-social{
-    text-align: center;
-}
-.block4 .enter-social h4:after, .block4 .enter-social h4:before{
-	content: ".";
-    border-top: 1px solid gray;
-    width: 60px;
-    font-size: 4px;
-    display: inline-block;
-    margin: 0 10px;
-}
-.block4 h4{
-    padding-bottom: 20px;
-}
-.block4 .socials {
-	margin: 0 auto;
-    text-align: center;
-    margin-bottom: 35px;
-}
-.block4 li{
-    display: inline-block;
-    vertical-align: middle;
-    height: 28px;
-    width: 28px;
-}
-.block4 .vk{
-    background: #507299;
-    font-family: "fontello";
-}
-.block4 .fb{
-    background: #43609C;
-    font-family: "fontello";
-}
-.block4 .gPlus{
-    background: #DB4437;
-    font-family: "fontello";
-}
-.block4 .vk, .block4 .fb, .block4 .gPlus{
-    width: 100%;
-    height: 100%;
-    display: block;
-    border-radius: 2px;
-    text-decoration: none;
-}
-.block4 i{
-    color: #fff;
-    line-height: 28px;    
+    font-size: 35px;
+    color: #0b0b0b;
 }

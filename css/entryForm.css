@@ -1,0 +1,174 @@
+.entryForm{
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    z-index: 20;
+    width: 100%;
+} 
+.entryForm .formWrap{
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 30px 10px 35px 10px;
+}
+.entryForm h2{
+    text-align: center;
+    padding: 0 0 20px 0;
+    margin: 0;
+    font-family: SegoeUIRegular, Arial, sans-serif;
+    font-size: 35px;
+    color: #0b0b0b;
+}
+.entryForm .entry{
+    vertical-align: middle;
+    text-align: right;
+}
+.entryForm .row, .entryForm .rowGender{
+	width: 100%;
+    padding-bottom: 15px;
+}
+.entryForm .row:after, .entryForm .rowGender:after{
+    content: " ";
+    display: block;
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+}
+.entryForm .name, .entryForm .gender {
+	float: left;
+    width: 30%;
+    text-align: right;
+    padding: 3px 15px 0 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.entryForm .inputWrap{
+    width: 70%;
+    overflow: hidden;
+}
+.entryForm .inp{
+    width: 100%;
+    border: 1px solid #d0cec9;
+    border-image: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+} 
+.entryForm .name, .entryForm .gender, .entryForm .enter-social, .entryForm .nameGender{
+    font-size: 14px;
+    color: #537fa8;
+    font-family: SegoeUIRegular, Arial, sans-serif;
+}
+.entryForm .gender{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 15px 0 0;
+}
+.entryForm .rowGender{
+    text-align: left;
+}
+.entryForm .nameGender, entryForm .radio{
+    padding-top: 2px;
+}
+.entryForm .nameGender{
+    display: inline-block;
+    vertical-align: middle;
+}
+.entryForm .radio{
+    position: absolute;
+    opacity: 0;
+}
+.entryForm input[type="radio"]+label{
+    position: relative;
+    padding: 0;
+    font-size: 16px;
+    cursor: pointer;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.entryForm input[type="radio"]:checked+label:before{
+    background: #537fa8;
+    border: 2px solid rgba(255, 255, 255, 0.85);
+}
+.entryForm input[type="radio"]+label:before{
+    width: 14px;
+    height: 14px;
+    margin: 0 10px;
+    position: relative;
+    top: 4px;
+    box-shadow: 0 0 0 2px #537fa8;
+    content: " ";
+    border-radius: 50%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: inline-block;
+}
+.entryForm .sumit{
+    background: #0db233;
+    color: #fff;
+    font-size: 15px;
+    font-family: SegoeUIRegular, Arial, sans-serif;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin: 0 40px 20px 0;
+}
+.entryForm .enter-social{
+    text-align: center;
+}
+.entryForm .enter-social h4:after, .entryForm .enter-social h4:before{
+	content: ".";
+    border-top: 1px solid gray;
+    width: 60px;
+    font-size: 4px;
+    display: inline-block;
+    margin: 0 10px;
+}
+.entryForm h4{
+    padding-bottom: 20px;
+}
+.entryForm .socials {
+	margin: 0 auto;
+    text-align: center;
+}
+.entryForm li{
+    display: inline-block;
+    vertical-align: middle;
+    height: 28px;
+    width: 28px;
+}
+.entryForm .vk{
+    background: #507299;
+    font-family: "fontello";
+}
+.entryForm .fb{
+    background: #43609C;
+    font-family: "fontello";
+}
+.entryForm .gPlus{
+    background: #DB4437;
+    font-family: "fontello";
+}
+.entryForm .vk, .entryForm .fb, .entryForm .gPlus{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.entryForm i{
+    color: #fff;
+    line-height: 28px;  
+}

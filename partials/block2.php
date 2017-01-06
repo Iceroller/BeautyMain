@@ -1,3 +1,4 @@
+<!-- block2 start -->
 <div class="block2">
     <div class="forward">
         <div class="slide-forw">
@@ -176,4 +177,4 @@
         </div>
     </div>
 </div>
-	
+<!-- block2 end -->
