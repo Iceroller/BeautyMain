@@ -18,7 +18,7 @@
             </nav>
             <div class="login">
                 <div class="logBG">
-                    <a class="login-a" href="#">login</a></a>
+                    <a class="login-a" href="#">login</a>
                 </div>
             </div>
             <div class="fake"></div>
