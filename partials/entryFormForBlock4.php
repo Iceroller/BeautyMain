@@ -51,17 +51,17 @@
                 <ul>
                     <li>
                         <a class="vk" href="#">
-                            <i class="icon-vkontakte">&#xf189;</i>
+                            <i class="fa fa-vk"></i>
                         </a>
                     </li>
                     <li>
                         <a class="fb" href="#">
-                            <i class="icon-facebook">&#xf09a;</i>
+                            <i class="fa fa-facebook"></i>
                         </a>
                     </li>
                     <li>
                         <a class="gPlus" href="#">
-                            <i class="icon-gplus">&#xf05a;</i>
+                            <i class="fa fa-google-plus"></i>
                         </a>
                     </li>
                 </ul>

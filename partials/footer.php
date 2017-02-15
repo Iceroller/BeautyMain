@@ -2,8 +2,8 @@
 <footer id="footer">
     <div class="container">
         <div class="wrap">
-            <div id="logo-wrap">
-                <strong id="logo">
+            <div id="footer-logo-wrap">
+                <strong id="footer-logo">
                     <a class="logo-a" href="homepage.php">Beauty Main</a>
                 </strong>
             </div>
